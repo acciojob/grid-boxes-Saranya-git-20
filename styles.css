@@ -1,7 +1,6 @@
   #grid {
       display: grid;
-      grid-template-columns: repeat(5, 124px); /* 4 equal columns */
-     /* grid-template-rows: ; */
+     grid-template-columns: repeat(5, 124px);     /* grid-template-rows: ; */
       gap: 4px;
       background-color: white;
       padding: 4px;
@@ -20,9 +19,9 @@
 .item2 { grid-row: span 4/auto; grid-column: 1 / 2; }
 .item3 { grid-column:span 2 / auto; }
 .item4 { grid-column:span 2 / auto; }
-.item5 { grid-column: 2 / 4; }
-.item6 { grid-column: 4 / 5; }
-.item7 { grid-column: 2 / 3; }
-.item8 { grid-column: 3 / 4; }
-.item9 { grid-column: 4 / 5; }
-.item10 { grid-column: 2 / 5; }
+.item5 { grid-column: span 2 / auto; }
+.item6 { grid-column: span 1 / auto; }
+.item7 { grid-column:span 1 / auto; }
+.item8 { grid-column:span 1 / auto; }
+.item9 { grid-column: span 1 / auto; }
+.item10 { grid-column: span 3 / auto; }
