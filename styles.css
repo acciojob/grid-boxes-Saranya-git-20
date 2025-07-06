@@ -17,7 +17,7 @@
       border: 1px solid white;
     }
 .item1{grid-column:span 4/auto}
-.item2 { grid-row: 2 / 6; grid-column: 1 / 2; }
+.item2 { grid-row: span 4/auto; grid-column: 1 / 2; }
 .item3 { grid-column: 2 / 3; }
 .item4 { grid-column: 3 / 5; }
 .item5 { grid-column: 2 / 4; }
