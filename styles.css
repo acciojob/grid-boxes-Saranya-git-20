@@ -1,7 +1,7 @@
   #grid {
       display: grid;
-      grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
-     grid-template-rows: repeat(5, 124px);;
+      grid-template-columns: repeat(5, 124px); /* 4 equal columns */
+     /* grid-template-rows: ; */
       gap: 4px;
       background-color: white;
       padding: 4px;
@@ -19,7 +19,7 @@
 .item1{grid-column:span 4/auto}
 .item2 { grid-row: span 4/auto; grid-column: 1 / 2; }
 .item3 { grid-column:span 2 / auto; }
-.item4 { grid-column:span 3 / auto; }
+.item4 { grid-column:span 2 / auto; }
 .item5 { grid-column: 2 / 4; }
 .item6 { grid-column: 4 / 5; }
 .item7 { grid-column: 2 / 3; }
