@@ -1,7 +1,7 @@
   #grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
-     grid-template-rows: repeat(5, 124px);;
+     grid-template-rows: repeat(5, 242.5px);;
       gap: 4px;
       background-color: white;
       padding: 4px;
